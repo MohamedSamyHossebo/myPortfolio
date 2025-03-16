@@ -14,10 +14,9 @@ window.addEventListener('scroll', () => {
 })
 // Download CV
 function downloadCV() {
-	// Create a dummy element to trigger the download
 	var element = document.createElement('a');
-	element.setAttribute('href', '/assets/pdf/Mohamed_Samy Abdelfatah_Resume.pdf'); // Replace with the actual path to your CV file
-	element.setAttribute('download', 'mohamedCV'); // Replace with the desired file name
+	element.setAttribute('href', 'assets/pdf/Mohamed_CV.pdf'); 
+	element.setAttribute('download', 'Mohamed_CV'); 
 	element.click();
 
 }
