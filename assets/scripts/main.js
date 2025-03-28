@@ -15,7 +15,7 @@ window.addEventListener('scroll', () => {
 // Download CV
 function downloadCV() {
 	var element = document.createElement('a');
-	element.setAttribute('href', 'assets/pdf/Mohamed_CV.pdf'); 
+	element.setAttribute('href', 'assets/pdf/Mohamed-Samy-CV.pdf'); 
 	element.setAttribute('download', 'Mohamed_CV'); 
 	element.click();
 
